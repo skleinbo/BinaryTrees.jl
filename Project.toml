@@ -1,7 +1,7 @@
 name = "BinaryTrees"
 uuid = "b5b2f71e-4d2a-452d-9d2b-18613792c179"
 author = "Stephan Kleinboelting <s.kleinboelting@gmail.com>"
-version = "0.2.1"
+version = "0.2.2"
 
 [deps]
 AbstractTrees = "1520ce14-60c1-5f80-bbc7-55ef81b5835c"

@@ -89,6 +89,8 @@ function Base.iterate(p::BinaryTree{T}, cursor::BinaryTree{T}) where T
     end
     if !isnothing(pa.right)
         cursor::BinaryTree = descendleft(pa.right)
+    else
+        cursor = pa
     end
 
     return (cursor, cursor)::Tuple{BinaryTree{T}, BinaryTree{T}}
